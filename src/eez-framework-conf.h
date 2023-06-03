@@ -6,7 +6,7 @@ extern uint32_t DISPLAY_WIDTH;
 extern uint32_t DISPLAY_HEIGHT;
 static const uint32_t DISPLAY_BPP = 32;  // RGBA8888
 
-static const char *TITLE = "EEZ Flow App";
+static const char *TITLE = "Binary-Trees Benchmark";
 static const char *ICON = "icon.png";
 
 #define MAX_NUM_OF_Y_AXES 18
