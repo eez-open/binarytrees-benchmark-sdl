@@ -44,10 +44,10 @@ set SDL2IMAGEDIR=..\SDL2_image-2.0.4
 Execute `cmake.bat`:
 
 ```
-cd C:\Users\mvladic\eez-projects\binarytrees-banchmark-sdl
+cd C:\Users\<user_name>\eez-projects\binarytrees-banchmark-sdl
 .\cmake.bat
 ```
 
-Visual Studio solution is created in `C:\Users\mvladic\eez-projects\binarytrees-banchmark-sdl\build\win32`.
+Visual Studio solution is created in `C:\Users\<user_name>\eez-projects\binarytrees-banchmark-sdl\build\win32`.
 
 Use Visual Studio to build the solution.
