@@ -71,12 +71,12 @@ namespace eez {
 
     #ifdef _WIN32
         if (SUCCEEDED(SHGetFolderPathA(NULL, CSIDL_PROFILE, NULL, 0, file_path))) {
-            stringAppendString(file_path, sizeof(file_path), "\\.binarytrees-banchmark-sdl");
+            stringAppendString(file_path, sizeof(file_path), "\\.binarytrees-benchmark-sdl");
             _mkdir(file_path);
             stringAppendString(file_path, sizeof(file_path), "\\");
         }
     #elif defined(__EMSCRIPTEN__)
-        stringAppendString(file_path, sizeof(file_path), "/binarytrees-banchmark-sdl/");
+        stringAppendString(file_path, sizeof(file_path), "/binarytrees-benchmark-sdl/");
     #else
         const char *home_dir = 0;
         if ((home_dir = getenv("HOME")) == NULL) {
@@ -84,7 +84,7 @@ namespace eez {
         }
         if (home_dir) {
             stringAppendString(file_path, sizeof(file_path), home_dir);
-            stringAppendString(file_path, sizeof(file_path), "/.binarytrees-banchmark-sdl");
+            stringAppendString(file_path, sizeof(file_path), "/.binarytrees-benchmark-sdl");
             mkdir(file_path, S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
             stringAppendString(file_path, sizeof(file_path), "/");
         }

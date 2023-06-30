@@ -43,8 +43,8 @@ static int g_initialized = false;
 // clang-format off
 void mountFileSystem() {
     EM_ASM(
-        FS.mkdir("/binarytrees-banchmark-sdl");
-        FS.mount(IDBFS, {}, "/binarytrees-banchmark-sdl");
+        FS.mkdir("/binarytrees-benchmark-sdl");
+        FS.mount(IDBFS, {}, "/binarytrees-benchmark-sdl");
 
         //Module.print("start file sync..");
 

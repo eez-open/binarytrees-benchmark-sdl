@@ -13,7 +13,7 @@ First, build the project using EEZ Studio.
 ```
 sudo apt-get update
 sudo apt-get install -y git libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev cmake build-essential libbsd-dev
-cd C:\Users\mvladic\eez-projects\binarytrees-banchmark-sdl
+cd C:\Users\mvladic\eez-projects\binarytrees-benchmark-sdl
 mkdir -p build/linux
 cd build/linux
 cmake ../..
@@ -23,7 +23,7 @@ make
 Start simulator with:
 
 ```
-./binarytrees-banchmark-sdl
+./binarytrees-benchmark-sdl
 ```
 
 #### Windows
@@ -44,10 +44,10 @@ set SDL2IMAGEDIR=..\SDL2_image-2.0.4
 Execute `cmake.bat`:
 
 ```
-cd C:\Users\<user_name>\eez-projects\binarytrees-banchmark-sdl
+cd C:\Users\<user_name>\eez-projects\binarytrees-benchmark-sdl
 .\cmake.bat
 ```
 
-Visual Studio solution is created in `C:\Users\<user_name>\eez-projects\binarytrees-banchmark-sdl\build\win32`.
+Visual Studio solution is created in `C:\Users\<user_name>\eez-projects\binarytrees-benchmark-sdl\build\win32`.
 
 Use Visual Studio to build the solution.
